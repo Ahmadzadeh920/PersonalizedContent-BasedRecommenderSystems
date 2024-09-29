@@ -29,3 +29,31 @@
   -[Training Section](Training-Section)
   -[Testing Section](Testing-Section)
 - [Evaluation](Evaluation)
+
+
+
+# Data Description
+
+The data has been collected from three Irish online news sources (RTE, Irish Times and Irish Independent
+Table 1. Data Statistics
+Data Collections	
+31		User
+3857	News
+2009/7/8 – 2009/7/31	Time Collected Data
+
+Table 2. Example of Transaction in Dataset
+User_id	article_id
+31	6
+3857	7
+2009/7/8 – 2009/7/31	13
+
+Table 3. Example Article of Term Index and Frequency Pairs
+term_indexN:freqN	…	term_index2:freq2	term_index1:freq1	article data	article_id
+01:270	…	06:01	04:147	08/07/2009	2
+01:353	….	01:752	01:351	21/07/2009	2237
+01:459	….	03:01	01:460	31/07/2009	3686
+
+Table 4. List of some Unique Terms
+Term_id	Term
+20	Swedish
+753	told
